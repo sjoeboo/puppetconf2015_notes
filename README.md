@@ -119,3 +119,25 @@ opt-in upgrades (puppet3 came out folks got it that didn't intend to)
 * needed build system to support 70+ targets.
 
 * Vanagon
+
+Puppet 4, The power of puppet4
+------------------------------
+Example42 Martin Alfke
+1 day old company
+
+* lambdas + functions
+  * slice
+  * reduce
+* EPP templates, use puppet syntax in templates
+  * epp(template_name.epp) syntax is basically the same, no @vars
+  * cli template eval. puppet epp <template>
+* types , thigns are no longer pure strings
+* functions can eval data types
+* node inheritance no longer works.
+* empty string comparison: empty string used to be false, now its true. yikes
+* vars cannot start with: number. capital letter.
+* vars cannot contain: dots, hyphens
+* hyphers are math operators, san'e be used in module/class names
+
+Upgrading to puppet 4: READ DOCS. READ LOGS FOR DEPS.
+Setup From scratch.
