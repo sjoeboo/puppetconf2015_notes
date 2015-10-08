@@ -39,4 +39,7 @@ you can get a lot done with puppet, core infra, app infra, app releases....
 
   Orchestrator lays ground work for next 10 years
 
-  * 
+  * goal:  to the be the spin of the application deployment infra.
+  * orch + direct puppet = canary host automation
+  * gradual deployment
+  
