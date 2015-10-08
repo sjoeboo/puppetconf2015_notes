@@ -27,3 +27,15 @@ you can get a lot done with puppet, core infra, app infra, app releases....
     * Flexability(fact based, move around, resue)
     * Predicability (noop mode etc)
     * Orchestration (relationships)
+  * App level:
+    * exported resources = multiple runs.
+    * want to fix that "bug" ^^^ (eventually consistent)
+    * services are center of Orchestrator
+    * who provides what + dependancies of those services
+    * your database server knows how things need to connect to it.
+    * let the apps consume this data
+    * context
+    * export/consume (not relationships, but what service need/provide)
+
+  Orchestrator lays ground work for next 10 years
+  
