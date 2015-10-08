@@ -104,4 +104,18 @@ opt-in upgrades (puppet3 came out folks got it that didn't intend to)
 * Why?
   * easier.
   * batteries included
-  
+* Benefits
+  * one set of docs (PE vs open source)
+  * logs in one spot
+  * migrations
+  * legacy/security
+* use git, you CAN use with github
+* use puppet, you CAN use with PE. agents are the SAME.
+
+* puppetlabs/puppet_agent module:
+  * upgrades 3.8 to 4.0 agents
+
+* Everything in AIO is opensource
+* needed build system to support 70+ targets.
+
+* Vanagon
