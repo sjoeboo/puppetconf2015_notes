@@ -42,4 +42,26 @@ you can get a lot done with puppet, core infra, app infra, app releases....
   * goal:  to the be the spin of the application deployment infra.
   * orch + direct puppet = canary host automation
   * gradual deployment
-  
+
+Infrastructure as Code & Monitoring
+-----------------------------------
+Sean Porter, Heavy Water Ops. @portertech
+
+What infra as code ? Enable th rebuilding/reconstructing of the bussiness form nothing but a source code repository.
+
+move tests close to code, before review/build pipeline.
+
+serverspec: rspec tests for servers
+kitche-puppet
+vagrant-serverspec
+
+sensu, designed for CM systems (puppet etc)
+designed for dynamic infra. public networks. automatic deregistration
+rabbit mq. servers= event processors, client = things runnig checks. redis backend.
+
+service checks, simple to write and understand. stdout + exit codes. can have formatted metrics, send to various backends (graphite etc)
+top to bottom service dep chain.
+
+local socket allow scripts etc to check in and sendstatus, with ttl, aka, deadmans switch
+
+check -> filters -> mutators -> handlers
