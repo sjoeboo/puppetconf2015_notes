@@ -21,3 +21,9 @@ Incremental bits of automation.
 Puppet Application Orchestrator:
 Ryan Coleman:
 you can get a lot done with puppet, core infra, app infra, app releases....
+* Elevating Puppet:
+  * Node Level:
+    * Composition (core configs, ldap, ntp, etc etc)
+    * Flexability(fact based, move around, resue)
+    * Predicability (noop mode etc)
+    * Orchestration (relationships)
