@@ -38,4 +38,5 @@ you can get a lot done with puppet, core infra, app infra, app releases....
     * export/consume (not relationships, but what service need/provide)
 
   Orchestrator lays ground work for next 10 years
-  
+
+  * 
