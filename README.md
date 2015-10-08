@@ -68,9 +68,40 @@ check -> filters -> mutators -> handlers
 github.com/sensu-plugins
 monitoring-plugins.Organic
 
-json config formatted
+json config format
 
 official puppet module
 
 use serverspec for checks! puppet modules add spec tests, senseu runs and reports.
 I expect my puppet code to do X, thus, also prod hosts should be doing X.
+
+
+Puppet 4, AIO,Puppet Collections
+--------------------------------
+Michael Stahnke
+(started EPEL)
+
+need confidence in automation system. set of software that works together.
+opt-in upgrades (puppet3 came out folks got it that didn't intend to)
+* Puppet Collections: distro for IT tooling.
+  * designed for stability. who wants to MANAGE the puppet install? USE it.
+  * has puppet in it
+  * collections don't have breaking changes (they exist between collections)
+  * consistent names for packages/services between distros
+  * consistent ruby!
+  * security updates. Puppet assumes risk for all things in PC/AIO
+  * broken rules, so things can be consistent with ALL platforms
+  * /etc = configs /var/log = logs, everything else into /opt/puppetlabs
+* AIO: All in One (omnibus package):
+  * augeas
+  * facter
+  * curl
+  * dmidecode
+  * hiera
+  * mcollective
+  * puppet
+  * ruby
+* Why?
+  * easier.
+  * batteries included
+  
