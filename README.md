@@ -15,7 +15,7 @@ Keynote: Luke Kanies
 
 Everyone is looking for their own bridge to live under.
 Devops is still mostly a theory. Rename sys admins to Devops engineers.
-Can't add quaility @ the end. Add quality in the process. Evol backwards from the customer.
+Can't add quality @ the end. Add quality in the process. Evol backwards from the customer.
 Incremental bits of automation.
 
 Puppet Application Orchestrator:
@@ -65,3 +65,12 @@ top to bottom service dep chain.
 local socket allow scripts etc to check in and sendstatus, with ttl, aka, deadmans switch
 
 check -> filters -> mutators -> handlers
+github.com/sensu-plugins
+monitoring-plugins.Organic
+
+json config formatted
+
+official puppet module
+
+use serverspec for checks! puppet modules add spec tests, senseu runs and reports.
+I expect my puppet code to do X, thus, also prod hosts should be doing X.
