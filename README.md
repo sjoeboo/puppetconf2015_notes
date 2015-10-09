@@ -147,3 +147,27 @@ Setup From scratch.
 ------------------
 cfengine isconf
 puppet was originally called blink, reductive labs (ahh yes)
+
+
+Day 2, Oct 9th 2015
+===================
+
+Keynote 1 : Uber head of business intelegence
+don't push anything to production that would prevent you from getting a ride back home (be a customer)
+
+Keynote 2 : Martin Jacson from Walmart. 0 nodes - 48k in puppet in 2 years.
+
+Keynotes 3: Depak, all the cool new things.
+cfacter
+
+More dynamic configs with consul + puppet
+-----------------------------------------
+* consul
+  * services are base unit.
+
+All services a profile provides = register service in consul (always with a check!)
+use the .consul dns service/name for #things.
+functions to get lists of ips (dns_resolv() service_discover_dns())
+
+puppet write /etc/consul-template/service.ctmpl
+consul writes to /etc/service.conf
