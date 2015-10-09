@@ -171,3 +171,15 @@ functions to get lists of ips (dns_resolv() service_discover_dns())
 
 puppet write /etc/consul-template/service.ctmpl
 consul writes to /etc/service.conf
+
+
+PuppetServer 2015 and Beyond
+----------------------------
+Clojure jetty jruby
+
+Trapperkeeper: clojure service framework.
+
+Scaling: Master of Masters, LB, masters
+
+/etc/puppetlabs/code-staging (no longer hot swapping files under the running processes)
+master of masters can push code, atomically to other masters (and itself, aka go-live)
