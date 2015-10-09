@@ -141,3 +141,9 @@ Example42 Martin Alfke
 
 Upgrading to puppet 4: READ DOCS. READ LOGS FOR DEPS.
 Setup From scratch.
+
+
+10 years of puppet
+------------------
+cfengine isconf
+puppet was originally called blink, reductive labs (ahh yes)
